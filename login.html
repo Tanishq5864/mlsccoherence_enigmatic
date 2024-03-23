@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Login Signup</title>
+    <link rel="stylesheet" href="login.css" />
+    <script src="../custom-scripts.js" defer></script>
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="form signup">
+        <header>Signup</header>
+        <form action="#" id="signupForm">
+          <input id="username" type="text" placeholder="Full name" required />
+          <input  id="email" type="text" placeholder="Email address" required />
+          <input id="password" type="password" placeholder="Password" required />
+          <div class="checkbox">
+            <input type="checkbox" id="signupCheck" />
+            <label for="signupCheck">I accept all terms & conditions</label>
+          </div>
+          <input type="submit" value="Signup" id="redirectButton"/>
+        </form>
+      </div>
+
+      <div class="form login">
+        <header>Login</header>
+        <form action="#">
+          <input type="text" placeholder="Email address" required />
+          <input type="password" placeholder="Password" required />
+          <a href="#">Forgot password?</a>
+          <input type="submit" id="redirectButton1" value="Login" />
+        </form>
+      </div>
+
+      <script src="login.js">
+        
+      </script>
+    </section>
+  </body>
+</html>
